@@ -1,0 +1,35 @@
+.metricas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 3em;
+    padding: 0 5em 7.5em 6.5em;
+    justify-content: space-between;
+}
+
+.metricas__primeira,
+.metricas__secundaria,
+.metricas__terceira,
+.metricas__quarta {
+    display: flex;
+    flex-direction: column;
+}
+
+.metricas__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-botao-distaque);
+}
+
+.metricas__subtitulo {
+    font-size: 18px;
+    color: var(--cor-titulo-secundario);
+    padding-top: 0.75em;
+    padding-bottom: 0.5em;
+}
+
+.metricas__texto {
+    font-weight: 400;
+    color: var(--cor-menu-texto);
+    line-height: 1.3;
+}

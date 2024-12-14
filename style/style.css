@@ -1,4 +1,6 @@
+@import url("/style/nav.css");
 @import url("/style/cabeçalho.css");
+@import url("/style/metricas.css");
 
 * {
     margin: 0;
@@ -10,9 +12,10 @@
     --fonte-principal: "Inter";
     --cor-backgroud: #FFFFFF;
     --cor-titulo: #3A404E;
-    --cor-menu: #667085;
+    --cor-menu-texto: #667085;
     --cor-botao-texto: #FFFFFF;
     --cor-botao-distaque: #8E2424;
+    --cor-titulo-secundario: #101828;
 }
 
 body {
