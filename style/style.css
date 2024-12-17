@@ -1,6 +1,7 @@
 @import url("/style/nav.css");
 @import url("/style/cabeçalho.css");
 @import url("/style/metricas.css");
+@import url("/style/talentos.css");
 
 * {
     margin: 0;
@@ -16,11 +17,14 @@
     --cor-botao-texto: #FFFFFF;
     --cor-botao-distaque: #8E2424;
     --cor-titulo-secundario: #101828;
+    --cor-background-degrade: rgba(142, 36, 36, 0.05);
+    --cor-borda: #EAECF0;
 }
 
 body {
     background-color: var(--cor-backgroud);
     font-family: var(--fonte-principal);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 500;  /*medium*/
+    padding-bottom: 6em;
 }
