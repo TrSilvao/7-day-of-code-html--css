@@ -1,0 +1,41 @@
+.opinião {
+    margin-top: 6em;
+}
+
+.opinião__caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--cor-background-degrade);
+    margin: 0 5em 6em 5em;
+}
+
+.opiniã0__cargo,
+.opnião__titulo {
+    font-size: 14px;
+}
+
+.opnião__titulo {
+    font-weight: 600;
+    color: var(--cor-botao-distaque);
+    padding: 4em 0 1em 0;
+}
+
+.opnião__texto {
+    font-size: 36px;
+    padding: 0 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.opnião__img {
+    width: 56px;
+    padding: 2em 0 1em 0;
+}
+
+.opiniã0__cargo {
+    color: var(--cor-menu-texto);
+    font-weight: 400;
+    padding: 0.25em 0 4em 0;
+}

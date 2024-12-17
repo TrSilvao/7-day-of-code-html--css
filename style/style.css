@@ -2,6 +2,7 @@
 @import url("/style/cabeçalho.css");
 @import url("/style/metricas.css");
 @import url("/style/talentos.css");
+@import url("/style/opnioes.css");
 
 * {
     margin: 0;
